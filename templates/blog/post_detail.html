@@ -21,7 +21,7 @@
   <hr>
 
   <section class="comments-section my-4">
-    <h3>Коментарі ({{ post.commentary_set.count }})</h3>
+    <h3>Коментарі ({{ post.commentaries.count }})</h3>
     {% for commentary in post.commentaries.all %}
       <div class="card my-2">
         <div class="card-body">

@@ -1,6 +1,6 @@
 from django.shortcuts import redirect
 from django.views import generic
-from templates.blog.forms import CommentaryForm
+from blog.forms import CommentaryForm
 from blog.models import Post
 
 
